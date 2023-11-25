@@ -1,0 +1,151 @@
+<form>
+  <p>Tell us about yourself:</p>
+  <p>First Name:</p>
+    <input type="text" name="firstname" placeholder="Lizzie">
+  <p>Last Name:</p>
+  <input type="text" name="lastname" placeholder="Bennet">
+  <p>Email:</p>
+  <input type="email" name="email" placeholder="mrsdarcy@pemberley.com">
+  <p>Phone:</p>
+  <input type="tel" name="phone" placeholder="###-###-####">
+  <p>Prefered contact method:</p>
+  <div class="option">
+    <input type="radio" name="contact" value="call">Call me
+  </div>
+  <div class="option">
+    <input type="radio" name="contact" value="text">Text me
+  </div>
+  <div class="option">
+    <input type="radio" name="contact" value="email">Email me
+  </div>
+  <p>When do you need your cake?</p>
+  <input class="FormDateInput" type="number" maxlength="2" name="month" placeholder="MM">/
+  <input class="FormDateInput" type="number" maxlength="2" name="day" placeholder="DD">
+  
+  
+  <p>Tell us about your cake:</p>
+  
+    <p>What size cake would you like?</p>
+  <div class="option">
+    <input type="radio" name="size" value="small">Small (10-12 servings)
+  </div>
+  <div class="option">
+    <input type="radio" name="size" value="regular">Regular (20-24 servings)
+  </div>
+  
+  <p>Which cake flavor(s) would you like?</p>
+  <div class="option">
+    <input type="checkbox" name="cake" value="vanilla">Vanilla
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="chocolate">Dark Chocolate
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="earlgrey">Earl Grey
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="caramel">Caramel
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="almond">Almond
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="spice">Spice
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="lemon">Lemon
+  </div>
+   <div class="option">
+    <input type="checkbox" name="cake" value="carrot">Carrot
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="chocolatestout">Chocolate Stout
+  </div>
+    <div class="option">
+    <input type="checkbox" name="cake" value="redwinechocolate">Red Wine Chocolate
+  </div>
+  <div class="option">
+    <input type="checkbox" name="cake" value="other">Other (comment below)
+  </div>
+
+  
+  <p>Which buttercream flavors sound tasty?</p>
+  
+  <div class="option">
+    <input type="checkbox" name="frosting" value="vanilla">Vanilla
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="chocolate">Dark Chocolate
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="creamcheese">Cream Cheese
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="mascarpone">Mascarpone
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="mocha">Mocha
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="berry">Berry
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="lemon">Lemon
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="coffee">Coffee
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="whitechocolate">White Chocolate
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="lavender">Lavender
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="saltedcaramel">Salted Caramel
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="peanutbutter">Peanut Butter
+  </div>
+  <div class="option">
+    <input type="checkbox" name="frosting" value="speculoos">Speculoos
+  </div>
+  
+  <p>How shall we frost it?</p>
+  <div class="option">
+    <input type="radio" name="frostingstyle" value="naked">Naked
+  </div>
+   <div class="option">
+    <input type="radio" name="frostingstyle" value="seminaked">Semi-naked
+  </div>
+   <div class="option">
+    <input type="radio" name="frostingstyle" value="fullfrost">Fully frosted
+  </div>
+  
+  <p>Would you like a ganache drip?</p>
+   <div class="option">
+    <input type="checkbox" name="drip" value="chocolate">Chocolate
+  </div>
+   <div class="option">
+    <input type="checkbox" name="drip" value="whitechocolate">White Chocolate
+  </div>
+   <div class="option">
+    <input type="checkbox" name="drip" value="saltedcaramel">Salted Caramel
+  </div>
+  
+  <p>Shall we fancy it up?</p>
+  <div class="option">
+    <input type="checkbox" name="fancy" value="edibles">Yes, please!
+  </div>
+   <div class="option">
+    <input type="checkbox" name="fancy" value="basic">No, thanks! Keep it basic. 
+  </div>
+  <p>Any other information we may need?</p>
+   <div class="option">
+    <textarea rows="10" cols="100" class="FormMessage" type="text" name="message" placeholder="As a matter of fact...">
+     </textarea>
+    <input type="submit"value="submit">
+    <submit><a href="submit.html">submit</a></submit>
+    
+  </div>  
+</form>
